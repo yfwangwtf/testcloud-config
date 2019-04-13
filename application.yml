@@ -1,0 +1,14 @@
+﻿spring: 
+    profiles: 
+        active: 
+        - dev
+---
+spring: 
+    profiles: dev
+    application:    
+        name: testcloud-config-dev
+---
+spring: 
+    profiles: test
+    application:
+        name:testcloud-config-test
